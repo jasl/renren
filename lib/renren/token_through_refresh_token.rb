@@ -6,7 +6,7 @@ require 'digest'
 require 'rest_client'
 
 module Renren
-  class TokenThroughRefeshToken
+  class TokenThroughRefreshToken
     attr_accessor :refresh_token
 
     def initialize(refresh_token)
