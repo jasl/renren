@@ -1,6 +1,5 @@
 module Renren
-  module Config
-    
+  module Config    
     def self.api_key=(val)
       @@api_key = val
     end
@@ -16,6 +15,5 @@ module Renren
     def self.api_secret
       @@api_secret
     end
-
   end
 end
